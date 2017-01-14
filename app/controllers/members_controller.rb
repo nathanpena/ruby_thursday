@@ -1,2 +1,2 @@
-class MembersController < ApplicationController
+class MembersController < InheritedResources::Base
 end
