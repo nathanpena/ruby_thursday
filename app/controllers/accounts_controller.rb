@@ -1,2 +1,2 @@
-class AccountsController < ApplicationController
+class AccountsController < InheritedResources::Base
 end
