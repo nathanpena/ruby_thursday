@@ -10,7 +10,6 @@ feature "signing in" do
   end
 
   scenario "visitin the site to sign in" do  
-    byebug
     visit root_path
     click_link "Sign in"
     fill_in_signin_fields
