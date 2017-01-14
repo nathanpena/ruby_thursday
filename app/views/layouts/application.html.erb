@@ -10,8 +10,10 @@
 
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
-  <%= link_to('Sign in', new_member_session_path) %>
-<%= yield %>
+    
+  <div class="container">
+    <%= yield %>
+  </div>
 
 </body>
 </html>
