@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
 gem 'inherited_resources'
+gem 'toastr-rails'
 
 group :development, :test do
     gem 'better_errors'
