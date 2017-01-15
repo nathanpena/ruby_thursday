@@ -16,3 +16,5 @@
 !/log/.keep
 /tmp
 /db/schema.rb
+# Ignore application configuration
+/config/application.yml
