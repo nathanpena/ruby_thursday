@@ -24,7 +24,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise'
-gem 'inherited_resources'
 gem 'toastr-rails'
 gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
 gem 'figaro', '1.0'
