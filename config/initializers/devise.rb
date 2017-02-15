@@ -261,4 +261,5 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET'], scope: 'email', info_fields: 'email, name'
   config.omniauth :google_oauth2, ENV['GOOGLE_CLIENT_ID'], ENV['GOOGLE_CLIENT_SECRET'], :client_options => { :ssl => { :verify => !Rails.env.development? } }
+  config.secret_key = ENV['DEVISE_SECRET_KEY'] if Rails.env.production?
 end

@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddAttachmentImageToPhotos	db/migrate/20170204235728_add_attachment_image_to_photos.rb	/^class AddAttachmentImageToPhotos < ActiveRecord::Migration$/;"	c
+AddConfirmableToDevise	db/migrate/20170114231133_add_confirmable_to_devise.rb	/^class AddConfirmableToDevise < ActiveRecord::Migration$/;"	c
+AddExtraFieldsToUser	db/migrate/20170115042037_add_extra_fields_to_user.rb	/^class AddExtraFieldsToUser < ActiveRecord::Migration$/;"	c
+AddFieldsToUser	db/migrate/20170115025945_add_fields_to_user.rb	/^class AddFieldsToUser < ActiveRecord::Migration$/;"	c
+AddFullNameToUser	db/migrate/20170114190520_add_full_name_to_user.rb	/^class AddFullNameToUser < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RubyThursday
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreatePhotos	db/migrate/20170204235715_create_photos.rb	/^class CreatePhotos < ActiveRecord::Migration$/;"	c
+CreateRooms	db/migrate/20170122224242_create_rooms.rb	/^class CreateRooms < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20170114165828_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+OmniauthCallbacksController	app/controllers/omniauth_callbacks_controller.rb	/^class OmniauthCallbacksController < Devise::OmniauthCallbacksController$/;"	c
+PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c
+PagesHelper	app/helpers/pages_helper.rb	/^module PagesHelper$/;"	m
+Photo	app/models/photo.rb	/^class Photo < ActiveRecord::Base$/;"	c
+PhotosController	app/controllers/photos_controller.rb	/^class PhotosController < ApplicationController$/;"	c
+RegistrationsController	app/controllers/registrations_controller.rb	/^class RegistrationsController < Devise::RegistrationsController$/;"	c
+RemoveAccounts	db/migrate/20170115052411_remove_accounts.rb	/^class RemoveAccounts < ActiveRecord::Migration$/;"	c
+Room	app/models/room.rb	/^class Room < ActiveRecord::Base$/;"	c
+RoomsController	app/controllers/rooms_controller.rb	/^class RoomsController < ApplicationController$/;"	c
+RoomsHelper	app/helpers/rooms_helper.rb	/^module RoomsHelper$/;"	m
+RubyThursday	config/application.rb	/^module RubyThursday$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+avatar_url	app/helpers/application_helper.rb	/^  def avatar_url(user) $/;"	f	class:ApplicationHelper
+change	db/migrate/20170114165828_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20170114190520_add_full_name_to_user.rb	/^  def change$/;"	f	class:AddFullNameToUser
+change	db/migrate/20170115025945_add_fields_to_user.rb	/^  def change$/;"	f	class:AddFieldsToUser
+change	db/migrate/20170115042037_add_extra_fields_to_user.rb	/^  def change$/;"	f	class:AddExtraFieldsToUser
+change	db/migrate/20170122224242_create_rooms.rb	/^  def change$/;"	f	class:CreateRooms
+change	db/migrate/20170204235715_create_photos.rb	/^  def change$/;"	f	class:CreatePhotos
+configure_permitted_parameters	app/controllers/application_controller.rb	/^    def configure_permitted_parameters$/;"	f	class:ApplicationController
+create	app/controllers/rooms_controller.rb	/^  def create$/;"	f	class:RoomsController
+destroy	app/controllers/photos_controller.rb	/^  def destroy$/;"	f	class:PhotosController
+down	db/migrate/20170114231133_add_confirmable_to_devise.rb	/^  def down$/;"	f	class:AddConfirmableToDevise
+down	db/migrate/20170115052411_remove_accounts.rb	/^  def down$/;"	f	class:RemoveAccounts
+down	db/migrate/20170204235728_add_attachment_image_to_photos.rb	/^  def self.down$/;"	F	class:AddAttachmentImageToPhotos
+edit	app/controllers/rooms_controller.rb	/^  def edit$/;"	f	class:RoomsController
+facebook	app/controllers/omniauth_callbacks_controller.rb	/^  def facebook$/;"	f	class:OmniauthCallbacksController
+from_omniauth	app/models/user.rb	/^  def self.from_omniauth(auth)$/;"	F	class:User
+google_oauth2	app/controllers/omniauth_callbacks_controller.rb	/^  def google_oauth2$/;"	f	class:OmniauthCallbacksController
+home	app/controllers/pages_controller.rb	/^  def home$/;"	f	class:PagesController
+index	app/controllers/rooms_controller.rb	/^  def index$/;"	f	class:RoomsController
+new	app/controllers/rooms_controller.rb	/^  def new$/;"	f	class:RoomsController
+room_params	app/controllers/rooms_controller.rb	/^    def room_params$/;"	f	class:RoomsController
+set_room	app/controllers/rooms_controller.rb	/^    def set_room$/;"	f	class:RoomsController
+show	app/controllers/rooms_controller.rb	/^  def show$/;"	f	class:RoomsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+up	db/migrate/20170114231133_add_confirmable_to_devise.rb	/^  def up$/;"	f	class:AddConfirmableToDevise
+up	db/migrate/20170115052411_remove_accounts.rb	/^  def up$/;"	f	class:RemoveAccounts
+up	db/migrate/20170204235728_add_attachment_image_to_photos.rb	/^  def self.up$/;"	F	class:AddAttachmentImageToPhotos
+update	app/controllers/rooms_controller.rb	/^  def update$/;"	f	class:RoomsController
+update_resource	app/controllers/registrations_controller.rb	/^    def update_resource(resource, params)$/;"	f	class:RegistrationsController
